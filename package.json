@@ -1,8 +1,8 @@
 {
   "name": "electron-autoupdate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "electron auto update",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
@@ -22,5 +22,8 @@
   "devDependencies": {
     "electron": "^9.2.1",
     "electron-builder": "^22.8.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.4"
   }
 }
