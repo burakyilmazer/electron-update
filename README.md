@@ -1,1 +1,1 @@
-# electron-update
+# electron-autoUpdate
